@@ -6,7 +6,7 @@
 
 	- Detect horizontal edges
 
-	- > Detect vertical edges
+	- Detect vertical edges
 
 	- Detect 45 degree edges
 
@@ -20,7 +20,7 @@
 
 	- 27,000,001
 
-	- > 27,000,100
+	- 27,000,100
 
 3. Suppose your input is a 300 by 300 color (RGB) image, and you use a convolutional layer with 100 filters that are each 5x5. How many parameters does this hidden layer have (including the bias parameters)?
 
@@ -30,7 +30,7 @@
 
 	- 7500
 
-	- > 7600
+	- 7600
 
 4. You have an input volume that is 63x63x16, and convolve it with 32 filters that are each 7x7, using a stride of 2 and no padding. What is the output volume?
 
@@ -38,7 +38,7 @@
 
 	29x29x16
 
-	> 29x29x32
+	29x29x32
 
 	16x16x16
 
@@ -48,7 +48,7 @@
 
 	17x17x10
 
-	> 19x19x8
+	19x19x8
 
 	17x17x8
 
@@ -58,7 +58,7 @@
 
 	2
 
-	> 3
+	3
 
 	7
 
@@ -66,7 +66,7 @@
 
 	15x15x16
 
-	> 16x16x16
+	16x16x16
 
 	32x32x8
 
@@ -76,7 +76,7 @@
 
 	True
 
-	> False
+	False
 
 9. In lecture we talked about “parameter sharing” as a benefit of using convolutional networks. Which of the following statements about parameter sharing in ConvNets are true? (Check all that apply.)
 
@@ -84,15 +84,15 @@
 
 	It reduces the total number of parameters, thus reducing overfitting.
 
-	> It allows gradient descent to set many of the parameters to zero, thus making the connections sparse.
+	It allows gradient descent to set many of the parameters to zero, thus making the connections sparse.
 
-	> It allows a feature detector to be used in multiple locations throughout the whole input image/input volume.
+	It allows a feature detector to be used in multiple locations throughout the whole input image/input volume.
 
 10. In lecture we talked about “sparsity of connections” as a benefit of using convolutional layers. What does this mean?
 
 	Each filter is connected to every channel in the previous layer.
 
-	> Each activation in the next layer depends on only a small number of activations from the previous layer.
+	Each activation in the next layer depends on only a small number of activations from the previous layer.
 
 	Each layer in a convolutional network is connected only to two other layers
 
